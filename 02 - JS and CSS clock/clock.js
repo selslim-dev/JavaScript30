@@ -22,3 +22,4 @@ const setDate = function () {
 
 setDate(); // initialize immediately
 setInterval(setDate, 1000);
+// Day 2 complete
