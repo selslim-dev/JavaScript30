@@ -43,6 +43,6 @@ console.log(findIdDel);
 comments.splice(findIdDel, 1);
 console.table(comments);
 const newComments = [
-  comments.slice(0, findIdDel),
-  comments.slice(findIdDel + 1),
+  ...comments.slice(0, findIdDel),
+  ...comments.slice(findIdDel + 1),
 ];
